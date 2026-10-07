@@ -1,0 +1,18 @@
+# Dados gerados pelo gerar_dados.py (qualquer um gera de novo com o script)
+dados_origem/
+
+# Banco e camadas geradas pela carga
+*.duckdb
+*.duckdb.wal
+bronze/*.parquet
+bronze/_controle.json
+registro_cargas.txt
+
+# Instruções pessoais de trabalho com o Claude (ficam só no meu computador)
+CLAUDE.md
+
+# Python e editor
+__pycache__/
+.venv/
+.vscode/
+.ipynb_checkpoints/
